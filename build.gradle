@@ -22,6 +22,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation group: 'com.googlecode.log4jdbc', name: 'log4jdbc', version: '1.2'
+	implementation group: 'org.lazyluke', name: 'log4jdbc-remix', version: '0.2.7'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
